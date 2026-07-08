@@ -1,9 +1,11 @@
+#Exercise 3
+
 age = 24
 height = 1.78
-complex = 1 + 2j
+complex_number = 1 + 2j
 
 #calculate the area of thes triangle
-print("To calculate the area of ​​a triangle, please")
+print("To calculate the area of a triangle, please")
 print("Enter the base")
 base = float(input())
 print("Enter the height")
