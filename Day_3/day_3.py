@@ -1,5 +1,5 @@
 #Exercise 3
-
+"""
 age = 24
 height = 1.78
 complex_number = 1 + 2j
@@ -40,3 +40,19 @@ print("Enter the radius")
 radius = float(input())
 print("The radius of the circle is: ", radius)
 print("The area of the circle is: ", pi*(radius**2), "and the circumference is:", 2*pi*radius)
+
+#Slope calculation
+m = 2
+b = -2
+interception_x = -b/m
+
+print("The slope is: ", m)
+print("The x-intercept is: (", interception_x,"0)")
+print("The y-intercept is: (0,", b,")")
+"""
+
+#Slope and Euclidean distance
+a = (2,2)
+b = (6,10)
+m = (b[1]-a[1])/(b[0]-a[0])
+print(m)
