@@ -1,5 +1,4 @@
 #Exercise 3
-"""
 age = 24
 height = 1.78
 complex_number = 1 + 2j
@@ -88,7 +87,7 @@ print("Enter a number to check if it is even.")
 number = int(input())
 even = number % 2
 print("The number", number, "is even:", even == 0)
-"""
+
 #check if the floor division
 print(7//3 == int(2.7))
 
@@ -115,4 +114,4 @@ print("1 1 1 1 1")
 print("2 1 2 4 8")
 print("3 1 3 9 27")
 print("4 1 4 16 64")
-print("5 1 5 25 126")
+print("5 1 5 25 125")
